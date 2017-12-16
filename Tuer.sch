@@ -1,0 +1,703 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Tuer-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R3
+U 1 1 59219A15
+P 9750 3850
+F 0 "R3" V 9830 3850 50  0000 C CNN
+F 1 "56" V 9750 3850 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L23mm-W9mm-H9mm-p30mm" V 9680 3850 50  0001 C CNN
+F 3 "" H 9750 3850 50  0000 C CNN
+	1    9750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 59219C7A
+P 3100 6600
+F 0 "R2" V 3180 6600 50  0000 C CNN
+F 1 "56" V 3100 6600 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L23mm-W9mm-H9mm-p30mm" V 3030 6600 50  0001 C CNN
+F 3 "" H 3100 6600 50  0000 C CNN
+	1    3100 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 59219D16
+P 3200 2500
+F 0 "R1" V 3280 2500 50  0000 C CNN
+F 1 "263" V 3200 2500 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L23mm-W9mm-H9mm-p30mm" V 3130 2500 50  0001 C CNN
+F 3 "" H 3200 2500 50  0000 C CNN
+	1    3200 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L C C2
+U 1 1 59219D83
+P 10000 3850
+F 0 "C2" H 10025 3950 50  0000 L CNN
+F 1 "10uF" H 10025 3750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7_W2_P5" H 10038 3700 50  0001 C CNN
+F 3 "" H 10000 3850 50  0000 C CNN
+	1    10000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 59219E56
+P 3450 6850
+F 0 "C1" H 3475 6950 50  0000 L CNN
+F 1 "10uF" H 3475 6750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7_W2_P5" H 3488 6700 50  0001 C CNN
+F 3 "" H 3450 6850 50  0000 C CNN
+	1    3450 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P2
+U 1 1 5925BCD1
+P 3200 1000
+F 0 "P2" H 3200 1100 50  0000 C CNN
+F 1 "Blau" V 3300 1000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 3200 1000 50  0001 C CNN
+F 3 "" H 3200 1000 50  0000 C CNN
+	1    3200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P3
+U 1 1 5925C0D2
+P 6100 3350
+F 0 "P3" H 6100 3450 50  0000 C CNN
+F 1 "Braun" V 6200 3350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 6100 3350 50  0001 C CNN
+F 3 "" H 6100 3350 50  0000 C CNN
+	1    6100 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P4
+U 1 1 5925C119
+P 1900 6850
+F 0 "P4" H 1900 6950 50  0000 C CNN
+F 1 "Weis" V 2000 6850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 1900 6850 50  0001 C CNN
+F 3 "" H 1900 6850 50  0000 C CNN
+	1    1900 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P6
+U 1 1 5925C14C
+P 10500 4000
+F 0 "P6" H 10500 4100 50  0000 C CNN
+F 1 "Orange" V 10600 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 10500 4000 50  0001 C CNN
+F 3 "" H 10500 4000 50  0000 C CNN
+	1    10500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P5
+U 1 1 5925C1A5
+P 2800 5400
+F 0 "P5" H 2800 5500 50  0000 C CNN
+F 1 "Rot" V 2900 5400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 2800 5400 50  0001 C CNN
+F 3 "" H 2800 5400 50  0000 C CNN
+	1    2800 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L PC817 KB817
+U 1 1 5925C29D
+P 9450 3300
+F 0 "KB817" H 9250 3500 50  0000 L CNN
+F 1 "IsRing" H 9450 3500 50  0000 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm" H 9250 3050 50  0000 L CIN
+F 3 "" H 9450 3300 50  0000 L CNN
+	1    9450 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 5925CF4F
+P 2700 2050
+F 0 "SW1" H 2850 2160 50  0000 C CNN
+F 1 "SW_PUSH" H 2700 1970 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH" H 2700 2050 50  0001 C CNN
+F 3 "" H 2700 2050 50  0000 C CNN
+	1    2700 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5925D113
+P 1250 1600
+F 0 "#PWR01" H 1250 1350 50  0001 C CNN
+F 1 "GND" H 1250 1450 50  0000 C CNN
+F 2 "" H 1250 1600 50  0000 C CNN
+F 3 "" H 1250 1600 50  0000 C CNN
+	1    1250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR02
+U 1 1 5925DC5C
+P 3750 1600
+F 0 "#PWR02" H 3750 1450 50  0001 C CNN
+F 1 "+3.3V" H 3750 1740 50  0000 C CNN
+F 2 "" H 3750 1600 50  0000 C CNN
+F 3 "" H 3750 1600 50  0000 C CNN
+	1    3750 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3950 1850 1    60   Input ~ 0
+DetectOpen
+Text GLabel 9500 1350 0    60   Input ~ 0
+DetectOpen
+Text GLabel 1350 1300 0    60   Input ~ 0
+OpenDoor
+Text GLabel 9500 1550 0    60   Input ~ 0
+OpenDoor
+$Comp
+L SPEAKER SP1
+U 1 1 5925FBF7
+P 10300 3300
+F 0 "SP1" H 10200 3550 50  0000 C CNN
+F 1 "SPEAKER" H 10200 3050 50  0000 C CNN
+F 2 "Buzzers_Beepers:BUZZER" H 10300 3300 50  0001 C CNN
+F 3 "" H 10300 3300 50  0000 C CNN
+	1    10300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR03
+U 1 1 5926037B
+P 8900 3450
+F 0 "#PWR03" H 8900 3300 50  0001 C CNN
+F 1 "+3.3V" H 8900 3590 50  0000 C CNN
+F 2 "" H 8900 3450 50  0000 C CNN
+F 3 "" H 8900 3450 50  0000 C CNN
+	1    8900 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 8900 3200 0    60   Input ~ 0
+DetectRing
+Text GLabel 9500 1250 0    60   Input ~ 0
+DetectRing
+$Comp
+L BARREL_JACK CON1
+U 1 1 59261039
+P 4050 6000
+F 0 "CON1" H 4050 6250 50  0000 C CNN
+F 1 "Sound Out" H 4050 5800 50  0000 C CNN
+F 2 "Connect:BARREL_JACK" H 4050 6000 50  0001 C CNN
+F 3 "" H 4050 6000 50  0000 C CNN
+	1    4050 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L BARREL_JACK CON2
+U 1 1 5926113D
+P 4050 6750
+F 0 "CON2" H 4050 7000 50  0000 C CNN
+F 1 "Speach In" H 4050 6550 50  0000 C CNN
+F 2 "Connect:BARREL_JACK" H 4050 6750 50  0001 C CNN
+F 3 "" H 4050 6750 50  0000 C CNN
+	1    4050 6750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 59262758
+P 1150 6550
+F 0 "#PWR04" H 1150 6300 50  0001 C CNN
+F 1 "GND" H 1150 6400 50  0000 C CNN
+F 2 "" H 1150 6550 50  0000 C CNN
+F 3 "" H 1150 6550 50  0000 C CNN
+	1    1150 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5926279F
+P 1900 5000
+F 0 "#PWR05" H 1900 4750 50  0001 C CNN
+F 1 "GND" H 1900 4850 50  0000 C CNN
+F 2 "" H 1900 5000 50  0000 C CNN
+F 3 "" H 1900 5000 50  0000 C CNN
+	1    1900 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9500 1450 0    60   Input ~ 0
+ActivateMic
+Text GLabel 1050 5800 1    60   Input ~ 0
+ActivateMic
+Text GLabel 1900 4700 1    60   Input ~ 0
+ActivateMic
+$Comp
+L GND #PWR06
+U 1 1 59264644
+P 9750 1050
+F 0 "#PWR06" H 9750 800 50  0001 C CNN
+F 1 "GND" H 9750 900 50  0000 C CNN
+F 2 "" H 9750 1050 50  0000 C CNN
+F 3 "" H 9750 1050 50  0000 C CNN
+	1    9750 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 59264719
+P 10700 750
+F 0 "#PWR07" H 10700 500 50  0001 C CNN
+F 1 "GND" H 10700 600 50  0000 C CNN
+F 2 "" H 10700 750 50  0000 C CNN
+F 3 "" H 10700 750 50  0000 C CNN
+	1    10700 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 59264760
+P 10650 1250
+F 0 "#PWR08" H 10650 1000 50  0001 C CNN
+F 1 "GND" H 10650 1100 50  0000 C CNN
+F 2 "" H 10650 1250 50  0000 C CNN
+F 3 "" H 10650 1250 50  0000 C CNN
+	1    10650 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 592647A7
+P 10650 1450
+F 0 "#PWR09" H 10650 1200 50  0001 C CNN
+F 1 "GND" H 10650 1300 50  0000 C CNN
+F 2 "" H 10650 1450 50  0000 C CNN
+F 3 "" H 10650 1450 50  0000 C CNN
+	1    10650 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR010
+U 1 1 59264854
+P 9050 650
+F 0 "#PWR010" H 9050 500 50  0001 C CNN
+F 1 "+3.3V" H 9050 790 50  0000 C CNN
+F 2 "" H 9050 650 50  0000 C CNN
+F 3 "" H 9050 650 50  0000 C CNN
+	1    9050 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPTO-TRANSISTOR 4N32
+U 1 1 5926BAE1
+P 1750 1400
+F 0 "4N32" H 1550 1600 50  0000 L CNN
+F 1 "SWOpenDoor" H 1550 1200 50  0000 L CNN
+F 2 "Opto-Devices:Optocoupler_6pin_wide_Stile-II" H 1550 1200 50  0001 L CIN
+F 3 "" H 1750 1400 50  0000 L CNN
+	1    1750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPTO-TRANSISTOR 4N2x1
+U 1 1 5926CC0E
+P 3850 2200
+F 0 "4N2x1" H 3650 2400 50  0000 L CNN
+F 1 "isOpen" H 3650 2000 50  0000 L CNN
+F 2 "Opto-Devices:Optocoupler_6pin_wide_Stile-II" H 3650 2000 50  0001 L CIN
+F 3 "" H 3850 2200 50  0000 L CNN
+	1    3850 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPTO-TRANSISTOR 4N32_3
+U 1 1 5926CC9E
+P 1450 6250
+F 0 "4N32_3" H 1250 6450 50  0000 L CNN
+F 1 "SWWeis" H 1250 6050 50  0000 L CNN
+F 2 "Opto-Devices:Optocoupler_6pin_wide_Stile-II" H 1250 6050 50  0001 L CIN
+F 3 "" H 1450 6250 50  0000 L CNN
+	1    1450 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPTO-TRANSISTOR 4N32_2
+U 1 1 5926CDE1
+P 2400 4850
+F 0 "4N32_2" H 2200 5050 50  0000 L CNN
+F 1 "SWRot" H 2200 4650 50  0000 L CNN
+F 2 "Opto-Devices:Optocoupler_6pin_wide_Stile-II" H 2200 4650 50  0001 L CIN
+F 3 "" H 2400 4850 50  0000 L CNN
+	1    2400 4850
+	1    0    0    -1  
+$EndComp
+Text Label 6100 3700 0    60   ~ 0
+TBraun
+$Comp
+L CONN_02X10 P1
+U 1 1 59270FB7
+P 10150 1100
+F 0 "P1" H 10150 1650 50  0000 C CNN
+F 1 "Rasp17_36" V 10150 1100 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x10" H 10150 -100 50  0001 C CNN
+F 3 "" H 10150 -100 50  0000 C CNN
+	1    10150 1100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3750 6000
+NoConn ~ 3750 6750
+Text Label 2800 1000 0    60   ~ 0
+23,5V
+Text Label 3200 5400 2    60   ~ 0
+11V
+Text Label 2300 6850 2    60   ~ 0
+12V
+NoConn ~ 2050 1300
+NoConn ~ 3750 1900
+NoConn ~ 2700 4750
+NoConn ~ 1750 6150
+NoConn ~ 9900 1150
+NoConn ~ 10400 1150
+Wire Wire Line
+	2100 1500 2050 1500
+Wire Wire Line
+	1450 1500 1250 1500
+Wire Wire Line
+	1250 1500 1250 1600
+Wire Wire Line
+	3950 1850 3950 1900
+Wire Wire Line
+	1350 1300 1450 1300
+Wire Wire Line
+	9050 650  9900 650 
+Wire Wire Line
+	8900 3450 9150 3450
+Wire Wire Line
+	9150 3450 9150 3400
+Wire Wire Line
+	9750 3400 9750 3700
+Wire Wire Line
+	10000 3700 10000 3400
+Wire Wire Line
+	9750 4000 10300 4000
+Connection ~ 10000 4000
+Wire Wire Line
+	8900 3200 9150 3200
+Wire Wire Line
+	1150 6550 1150 6350
+Wire Wire Line
+	1050 5800 1050 6150
+Wire Wire Line
+	1050 6150 1150 6150
+Wire Wire Line
+	9900 1050 9750 1050
+Wire Wire Line
+	10400 1450 10650 1450
+Wire Wire Line
+	10400 1250 10650 1250
+Wire Wire Line
+	10700 750  10400 750 
+Wire Wire Line
+	3750 1600 3750 1750
+Wire Wire Line
+	3750 1750 3850 1750
+Wire Wire Line
+	3850 1750 3850 1900
+Wire Wire Line
+	2050 1400 2150 1400
+Wire Wire Line
+	2150 1400 2150 1000
+Wire Wire Line
+	2150 1000 3000 1000
+Wire Wire Line
+	9500 1250 9900 1250
+Wire Wire Line
+	9900 1350 9500 1350
+Wire Wire Line
+	9500 1450 9900 1450
+Wire Wire Line
+	9900 1550 9500 1550
+Wire Wire Line
+	3000 5400 3350 5400
+Wire Wire Line
+	1900 4700 1900 4750
+Wire Wire Line
+	1900 4750 2100 4750
+Wire Wire Line
+	1900 5000 1900 4950
+Wire Wire Line
+	1900 4950 2100 4950
+Wire Wire Line
+	3750 5400 3750 5900
+Wire Wire Line
+	3100 6750 3100 6850
+Wire Wire Line
+	3600 6850 3750 6850
+$Comp
+L BD433 Q1
+U 1 1 5967A286
+P 2300 1500
+F 0 "Q1" H 2500 1575 50  0000 L CNN
+F 1 "BD433" H 2500 1500 50  0000 L CNN
+F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-I_SmallPads" H 2500 2650 50  0000 L CIN
+F 3 "" H 2300 1500 50  0000 L CNN
+	1    2300 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2500 3350 2500
+Wire Wire Line
+	2400 2500 3050 2500
+Wire Wire Line
+	2700 1750 2700 1000
+Connection ~ 2700 1000
+Wire Wire Line
+	2700 2350 2700 2500
+Connection ~ 2700 2500
+Wire Wire Line
+	2400 1300 2400 1000
+Connection ~ 2400 1000
+Wire Wire Line
+	2400 1700 2400 2500
+$Comp
+L Q_PMOS_SGD Q3
+U 1 1 5A350967
+P 3550 5300
+F 0 "Q3" H 3850 5350 50  0000 R CNN
+F 1 "Q_PMOS_SGD" H 4200 5250 50  0000 R CNN
+F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-I_SmallPads" H 3750 5400 50  0001 C CNN
+F 3 "" H 3550 5300 50  0000 C CNN
+	1    3550 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_PMOS_SGD Q2
+U 1 1 5A350A8A
+P 2700 6750
+F 0 "Q2" H 3000 6800 50  0000 R CNN
+F 1 "Q_PMOS_SGD" H 3350 6700 50  0000 R CNN
+F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-I_SmallPads" H 2900 6850 50  0001 C CNN
+F 3 "" H 2700 6750 50  0000 C CNN
+	1    2700 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5A350C3F
+P 2350 6650
+F 0 "R4" V 2430 6650 50  0000 C CNN
+F 1 "10k" V 2350 6650 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L23mm-W9mm-H9mm-p30mm" V 2280 6650 50  0001 C CNN
+F 3 "" H 2350 6650 50  0000 C CNN
+	1    2350 6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R5
+U 1 1 5A350D1A
+P 3250 5150
+F 0 "R5" V 3330 5150 50  0000 C CNN
+F 1 "10k" V 3250 5150 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L23mm-W9mm-H9mm-p30mm" V 3180 5150 50  0001 C CNN
+F 3 "" H 3250 5150 50  0000 C CNN
+	1    3250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR011
+U 1 1 5A3515F7
+P 6100 3750
+F 0 "#PWR011" H 6100 3500 50  0001 C CNN
+F 1 "Earth" H 6100 3600 50  0001 C CNN
+F 2 "" H 6100 3750 50  0000 C CNN
+F 3 "" H 6100 3750 50  0000 C CNN
+	1    6100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3550 6100 3750
+Wire Wire Line
+	3950 2500 3950 2600
+Wire Wire Line
+	9750 3200 10000 3200
+$Comp
+L Earth #PWR012
+U 1 1 5A351B89
+P 9850 3250
+F 0 "#PWR012" H 9850 3000 50  0001 C CNN
+F 1 "Earth" H 9850 3100 50  0001 C CNN
+F 2 "" H 9850 3250 50  0000 C CNN
+F 3 "" H 9850 3250 50  0000 C CNN
+	1    9850 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 3250 9850 3200
+Connection ~ 9850 3200
+$Comp
+L Earth #PWR013
+U 1 1 5A351C8F
+P 3950 2600
+F 0 "#PWR013" H 3950 2350 50  0001 C CNN
+F 1 "Earth" H 3950 2450 50  0001 C CNN
+F 2 "" H 3950 2600 50  0000 C CNN
+F 3 "" H 3950 2600 50  0000 C CNN
+	1    3950 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 6100 3750 6650
+Wire Wire Line
+	3450 6450 3450 6500
+$Comp
+L Earth #PWR014
+U 1 1 5A351E1B
+P 3450 6500
+F 0 "#PWR014" H 3450 6250 50  0001 C CNN
+F 1 "Earth" H 3450 6350 50  0001 C CNN
+F 2 "" H 3450 6500 50  0000 C CNN
+F 3 "" H 3450 6500 50  0000 C CNN
+	1    3450 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 6500 2700 6550
+Wire Wire Line
+	1750 6250 2350 6250
+Wire Wire Line
+	1750 6350 1750 6550
+$Comp
+L Earth #PWR015
+U 1 1 5A352D91
+P 1750 6550
+F 0 "#PWR015" H 1750 6300 50  0001 C CNN
+F 1 "Earth" H 1750 6400 50  0001 C CNN
+F 2 "" H 1750 6550 50  0000 C CNN
+F 3 "" H 1750 6550 50  0000 C CNN
+	1    1750 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 6850 2500 6850
+Wire Wire Line
+	2350 6800 2350 6850
+Connection ~ 2350 6850
+Wire Wire Line
+	2700 6500 2350 6500
+Wire Wire Line
+	2350 6500 2350 6250
+Wire Wire Line
+	3250 5300 3250 5400
+Connection ~ 3250 5400
+Wire Wire Line
+	3550 5100 3550 5000
+Wire Wire Line
+	3550 5000 3250 5000
+Wire Wire Line
+	2700 4950 2800 4950
+Wire Wire Line
+	2800 4950 2800 5050
+$Comp
+L Earth #PWR016
+U 1 1 5A3537C1
+P 2800 5050
+F 0 "#PWR016" H 2800 4800 50  0001 C CNN
+F 1 "Earth" H 2800 4900 50  0001 C CNN
+F 2 "" H 2800 5050 50  0000 C CNN
+F 3 "" H 2800 5050 50  0000 C CNN
+	1    2800 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4850 3250 4850
+Wire Wire Line
+	3250 4850 3250 5000
+Text Notes 4500 7000 1    60   ~ 0
+Soundcard has connected GNDs!
+Wire Wire Line
+	3100 6450 3750 6450
+Connection ~ 3750 6450
+Connection ~ 3450 6450
+Wire Wire Line
+	2900 6850 3300 6850
+Connection ~ 3100 6850
+Wire Notes Line
+	800  700  800  2950
+Wire Notes Line
+	4250 700  4250 2950
+Wire Notes Line
+	950  7500 950  4050
+Wire Notes Line
+	4600 4050 4600 7500
+Text Notes 8350 4100 0    60   ~ 0
+Bell\n
+Text Notes 3900 2900 0    60   ~ 0
+Buzzer
+Text Notes 3900 4200 0    60   ~ 0
+Voice System
+Wire Notes Line
+	4600 7500 950  7500
+Wire Notes Line
+	950  4050 4600 4050
+Wire Notes Line
+	4250 2950 800  2950
+Wire Notes Line
+	800  700  4250 700 
+Wire Notes Line
+	8300 2950 8300 4150
+Wire Notes Line
+	8300 2950 10700 2950
+Wire Notes Line
+	10700 2950 10700 4150
+Wire Notes Line
+	10700 4150 8300 4150
+$EndSCHEMATC
