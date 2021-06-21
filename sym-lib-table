@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Tuer-rescue)(type Legacy)(uri ${KIPRJMOD}/Tuer-rescue.lib)(options "")(descr ""))
+)
