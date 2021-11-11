@@ -10,7 +10,7 @@ Please find it [here](https://github.com/User65k/DoorBerryServer).
 
 ## Hardware
 
-All Files are creaded with [KiCad](http://kicad-pcb.org/).
+All Files are creaded with [KiCad](http://kicad.org/).
 
 ### Old Door system
 
